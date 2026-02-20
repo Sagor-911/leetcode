@@ -11,7 +11,8 @@ class Solution(object):
         for i in range(len(x)//2):
             if x[i] != x[r]:
                 return False
+            #r -= 1
         return True
     
 palindrome = Solution()
-print(palindrome.isPalindrome(22))
+print(palindrome.isPalindrome(1001))
