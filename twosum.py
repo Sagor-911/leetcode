@@ -1,4 +1,4 @@
-#1. Two Sum - Easy
+#1. Two Sum - Easy (Brute Force)
 
 class Solution(object):
     def twoSum(self, nums, target):
